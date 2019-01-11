@@ -20,6 +20,7 @@ cc_defaults {
     cflags: [
         "-Wall",
         "-Werror",
+        "-DBOARD_RECOVERY_BLDRMSG_OFFSET",
     ],
     shared_libs: [
         "libbase",
